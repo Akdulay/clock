@@ -138,31 +138,93 @@ height: 50vh;
 
 .s3{
     width: 100%;
-    height: 50vh;      
-   
-}
-.contenedor-s3{
-    width: 100%;
-    height: 100%;
+    height: 60vh;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.s3P{
+    font-size: 5vh;
 }
 
-.foto-s3{
-    width: 79%;
-    height: 90%;    
-    background: url(../img/foto_s3.jpg);
+.s3Contenedor{
+    
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.s3Foto1{
+    height: 30%;
+    width: 30%;
+    background: url(../img/rolex1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 5px;
 }
-.tex-s3{
-    margin-right: 10px;
-    width: 50%;
-    height: 100%;  
+.s3Foto2{
+    height: 30%;
+    width: 30%;
+    background: url(../img/rolex2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.s3Foto3{
+    height: 30%;
+    width: 30%;
+    background: url(../img/rolex3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.s3Foto4{
+    height: 30%;
+    width: 30%;
+    background: url(../img/rolex3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.s3Foto5{
+    height: 30%;
+    width: 30%;
+    background: url(../img/rolex4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.s3Foto6{
+    height: 30%;
+    width: 30%;
+    background: url(../img/WhatsApp\ Image\ 2024-09-01\ at\ 11.10.39\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.s3button{
+    width: 100%;
+    height: 20%;
+    margin-top: auto;
+    margin-bottom: 5vh;
+    font-size: 30px;
+    border: none;
     text-align: center;
-    display: flex;
-    align-items: center; 
+    background-color: white;
 }
+.s3button li{
+    margin-top: auto;
+}
+
 footer{
     width: 100%;
     height: 40vh;
