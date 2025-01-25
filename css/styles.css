@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+li{
+    list-style:none ;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.s1{
+    width: 100%;
+    height: 85vh;   
+    background-image: url(../img/nueva2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    
+}
+.contenedor-s1{
+    width: 100%;
+    height: 100%;       
+}
+
+.text-s1{
+    top: 8vh;
+    position: relative;
+    color:#fff;    
+}
+
+.text-s1 h4{
+    color: rgba(0, 0, 17, 0.897);
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;      
+}
+.texto-s4{
+    border-top: 1px solid black;
+    margin: 10px;
+}
+
+.header{
+    background: rgba(0, 0, 0, .6);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    color: aliceblue;
+    height: 4.5vh;
+    font-size: 2.5vh;
+    width: 100%;
+    
+}
+
+
+.s2{
+    
+    width: 100%;
+    height: auto;       
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+
+.caja1{
+    background-image:url(../img/love-my-watch.svg);
+    background-repeat: no-repeat;
+    background-size:120px;
+    background-position:top;
+}
+
+.caja2{
+    background-image:url(../img/handshake.svg);
+    background-repeat: no-repeat;
+    background-size:120px;
+    background-position:top;
+}
+
+.caja3{
+    background-image:url(../img/buyer-rating.svg);
+    background-repeat: no-repeat;
+    background-size:120px;
+    background-position:top;
+}
+.caja4{
+    background-image:url(../img/mini.jpg);
+    background-repeat: no-repeat;
+    background-size:120px;
+    background-position:top;
+}
+
+.box-s2{
+    width: 150px;
+    height: 280px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px; 
+    border-bottom-left-radius:17px ; 
+    border-bottom-right-radius:17px ;
+    border: 0.5px solid rgb(16, 16, 80);
+    text-align: center;
+    margin: 10px;
+}
+.icono-b1{
+    width: 80%;
+    height: 50%;
+    
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+.s4{
+   
+    width: 100%;
+    height:auto;
+    display: grid;    
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align:center;
+    
+
+}
+
+.box-s4{
+   
+    width: 150px;
+    height: 350px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;  
+    
+}
+.boxy-s4-1{
+   
+    width: 100%;
+    height: 90%;  
+    border-radius: 17px;     
+    font-size: 25px;
+    background-image: url(../img/rolex\ \(4\).jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 15px gray;
+   
+}
+.boxy-s4-2{
+    width: 100%;
+    height: 90%;    
+    border-radius: 17px;  
+    background: url(../img/cartier.jpg);
+    background-position: center;    
+    background-size: contain;
+    background-repeat: no-repeat;   
+    font-size: 25px;
+    box-shadow: 2px 2px 15px gray;
+}
+.boxy-s4-3{
+    width: 100%;
+    height: 90%; 
+    border-radius: 17px;    
+    background: url(../img/rolex\ \(4\).jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;    
+    font-size: 25px;
+    box-shadow: 2px 2px 15px gray;
+}
+
+.boxy-s4-4{
+    width: 100%;
+    height: 90%;    
+    border-radius: 17px;     
+    background: url(../img/rolex\ \(4\).jpg);   
+    background-position: center;
+    background-size: cover; display: flex;
+    font-size: 25px;
+    box-shadow: 2px 2px 15px gray;
+  
+}
+
+
+
+.s3{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.s3P{
+    font-size: 3vh;
+}
+
+.s3Contenedor{
+    
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.s3Foto1{
+    height: 30%;
+    width: 30%;
+    background: url(../img/rolex1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.s3Foto2{
+    height: 30%;
+    width: 30%;
+    background: url(../img/rolex2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.s3Foto3{
+    height: 30%;
+    width: 30%;
+    background: url(../img/rolex3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.s3Foto4{
+    height: 30%;
+    width: 30%;
+    background: url(../img/rolex3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.s3Foto5{
+    height: 30%;
+    width: 30%;
+    background: url(../img/rolex4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+.s3Foto6{
+    height: 30%;
+    width: 30%;
+    background: url(../img/WhatsApp\ Image\ 2024-09-01\ at\ 11.10.39\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+/* 
+.s3button{
+    width: 35%;
+    height: 8%;
+    margin-top: auto;
+    margin-bottom: 5vh;
+    font-size: 30px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+.s3button li{
+    margin-top: auto;
+}
+
+.s4 button{
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+     */
+.see{
+    width: 100%;
+    height: 100vh;   
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(
+        to right,
+        rgba(3, 52, 75, 0.5),
+        rgba(51,51,153,0.6)
+    ),
+    url(../img/nueva1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.see h4{
+    top: 7vh;
+    position:relative;
+    color: white;
+    text-align: top;
+
+}
+.see h5{
+    bottom: 7vh;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color:#1f5f5b;
+}
